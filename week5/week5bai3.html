@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html
+<head>
+<meta charset="utf-8"
+<title>Create product list with CSS3</title>
+<style type="text/css">
+.ProductDentail {display: none;}
+.Product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.productName {font-weight: bold;}
+.ProductPrice {font-style: italic;}
+.ProductPrice:before {content: -;}
+.Product {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float:left;
+    cursor: pointer;
+}
+.Product:hover .ProductDentail {display: block;}
+</style>
+</head>
+<body>
+<div>
+    <div>
+        <div class="Product">
+        <img src="Anh/Screenshot 2024-03-10 003419.png">
+            <span class="ProductDentail">Rose</span>
+            <span class="ProductPrice">1.5$</span>
+        </div>
+    </div>
+    </div class="Product">
+        <img src="Anh/Screenshot 2024-03-10 003429.png">
+        <div class="Productdetails">
+            <span class="productName">Tulip</span>
+            <span class="ProductPrice">2.0$</span>
+        </div>
+    </div>
+    <div class="product">
+        <img src="Anh/Screenshot 2024-03-10 003440.png">
+        <div class="Productdetails">
+            <span class="productName">Daisy</span>
+            <span class="ProductPrice">1.0$</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
